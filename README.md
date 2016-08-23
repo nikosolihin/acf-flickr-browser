@@ -12,12 +12,15 @@ Browse and include photos from your Flickr collections and albums. The plugin wi
 Download and unzip to /plugins/acf-flickr-browser
 
 ## Usage Example
+
 **Getting a single photo**
+
 	$photo = get_field(FIELD_NAME);
 	echo $photo['title'];
 	echo '<img src="' . $photo['url_o'] . '" />';
 
 **Getting multiple photos**
+
 	$photos = get_field(FIELD_NAME);
 	foreach ($photos as $photo) {
     echo $photo['title'];
