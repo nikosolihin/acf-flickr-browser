@@ -1,6 +1,8 @@
 Flickr Browser Field for ACF Pro
 =============
 
+![ACF Flickr Browser](/flickr-browser.jpg?raw=true)
+
 ## Description
 Browse and include photos from your Flickr collections and albums. The plugin will generate the image size urls and other metadata you select.
 
